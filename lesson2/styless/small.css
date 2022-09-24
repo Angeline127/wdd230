@@ -104,8 +104,8 @@ footer p {
     text-shadow: 10px 10px 20px black;
 }
 
-.clearfix:after {
+/**--.clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+}//
