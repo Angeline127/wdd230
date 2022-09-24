@@ -1,0 +1,49 @@
+body {
+    font-family: PlayFair Display;
+    font-size: 15px;
+    background-color: white;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: 'Scheherazade New', serif;
+    max-width: 1600px;
+    margin: 2rem auto;
+
+}
+
+header {
+    padding: 0.9rem 1%;
+    background-color: rgb(8, 64, 99);
+    border-radius: 1.5rem;
+    background-color: #FFDF6C;
+    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+    padding: 1px;
+    justify-content: space-between;
+
+}
+.name {
+    text-align: center;
+    margin-top: 1%;
+    
+}
+img {
+    width: 5%;
+    height: 5%;
+    justify-content: left;
+    margin: 20px 20px;
+}
+
+footer {
+    padding: 0.9rem 1%;
+    max-height: 50%;
+    background-color: rgb(8, 64, 99);
+    border-radius: 1.5rem;
+    background-color: #FFDF6C;
+    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+    padding: 1px;
+}
+
+footer p {
+    font-family: PlayFair Display;
+    text-align: center;
+    font-size: 13px;
+}
