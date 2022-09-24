@@ -1,18 +1,20 @@
-* { -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+*{
+    font-family: PlayFair Display;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
-/* Merriweather Raleway*/
+
 
 body {
-    font-family: Merriweather;
-    font-size: 16px;
+    font-family: PlayFair Display;
+    font-size: 15px;
     background-color: white;
 }
 
 header {
-    padding: 1rem 1%;
+    padding: 0.9rem 1%;
     background-color: rgb(8, 64, 99);
 }
 
@@ -21,7 +23,7 @@ header h1 {
     margin-top: 5%;
     text-align: center;
     color: white;
-    text-shadow: 10px 10px 20px black;
+    
 }
 
 header h2 {
@@ -30,7 +32,6 @@ header h2 {
     font-size: 20px;
     text-align: center;
     color: white;
-    text-shadow: 10px 10px 20px black;
 }
 
 main {
@@ -42,31 +43,13 @@ main {
 main img {
     max-width: 96%;
     margin: 2%;
-    border: 1px solid #111;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
+    border: 1px solid rgb(246, 245, 245);
+    border-radius: 5px;
+
 }
 
 .prin {
     border-radius: 10px 10px 0 0;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-rows: auto auto auto;
-}
-
-.home-grid h2, .home-grid h3 {
-    background-color: rgb(180, 95, 39);
-    color: white;
-    margin: 0;
-    padding: 2%;
-    text-align: center;
-    text-shadow: 10px 10px 20px black;
-}
-
-.hicks, .alignment, .spaces {
-    box-shadow: 10px 10px 20px black;
 }
 
 .com {
@@ -74,10 +57,10 @@ main img {
 }
 
 .home-grid div {
-    border: 1px solid #111;
+    border: 1px solid rgb(220, 229, 254);
     margin: 3%;
-    border-radius: 10px;
-    background-color: rgba(235, 154, 32, 0.185);
+    border-radius: 1.5rem;
+    background-color: rgba(5, 85, 89, 0.185);
 }
 
 .home-grid a{
@@ -90,6 +73,19 @@ main img {
     margin: 5%;
     
 }
+.home-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.home-grid h2, .home-grid h3 {
+    background-color: rgb(8, 64, 99);
+    color: white;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+   
+}
 
 footer {
     background-color: rgb(8, 64, 99);
@@ -98,9 +94,10 @@ footer {
 }
 
 footer p {
+    font-family: PlayFair Display;
     text-align: center;
     font-size: 13px;
-    font-family: Merriweather;
+    
 
 }
 
