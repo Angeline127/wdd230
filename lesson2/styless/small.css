@@ -97,12 +97,5 @@ footer p {
     font-family: PlayFair Display;
     text-align: center;
     font-size: 13px;
-    
-
 }
 
-/**--.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}//
