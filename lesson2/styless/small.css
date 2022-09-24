@@ -13,7 +13,7 @@ body {
 
 header {
     padding: 1rem 1%;
-    background-color: rgb(180, 95, 39);
+    background-color: rgb(8, 64, 99);
 }
 
 header h1 {
@@ -88,11 +88,11 @@ main img {
 
 .home-grid p {
     margin: 5%;
-    text-shadow: 10px 10px 20px black;
+    
 }
 
 footer {
-    background-color: rgb(180, 95, 39);
+    background-color: rgb(8, 64, 99);
     color: white;
     padding: 0.5%;
 }
@@ -101,7 +101,7 @@ footer p {
     text-align: center;
     font-size: 13px;
     font-family: Merriweather;
-    text-shadow: 10px 10px 20px black;
+
 }
 
 /**--.clearfix:after {
