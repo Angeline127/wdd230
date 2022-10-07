@@ -1,0 +1,48 @@
+@media only screen and (min-width: 35rem) {
+ 
+    body {
+        max-width: 80%;
+    }
+    
+    /*header*/
+    #logo-image {
+        padding: 0;
+        max-width: 100px;
+        margin-left: 7%;  
+    }
+    
+    header {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        background-color: #F5F5F5;
+        padding: 0;
+    }
+    
+    header h1 {
+        margin-left: 4%;
+        text-align: bottom;
+        line-height: 620%;
+        display: inline;
+        font-size: 300%;
+        padding: 0;
+    }
+    /* nav */
+    nav {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    nav ul li a{
+        float: left;
+        max-width: auto;
+        text-align: center;
+        border: 0;
+        padding: 2%;
+        margin-top: 0;
+        margin-left: 8%;
+    }
+    
+    
+}
