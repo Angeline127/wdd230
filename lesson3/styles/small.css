@@ -123,10 +123,13 @@ nav ul li a{
     text-decoration: none;
     text-align: center;
     padding: 5px;
-    padding-top: 20%;
-    margin: 0.7em;
+    
+    display: block;
     color: #F5F5F5;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
+
+    
+    
 }
 
 nav ul li a:hover {
