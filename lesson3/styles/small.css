@@ -139,16 +139,11 @@ nav ul li a:hover {
 }
 
 footer {
-    padding-right: 0.10%;
-    margin-left: 0.10%;
     text-align: center;
     margin: 0 auto;
     max-width: 90%;
     color: white;
     background-color: #484349;
-
-    
-    
 }
 /*target page*/
 .hrline {
