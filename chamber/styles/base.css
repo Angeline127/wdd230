@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+*{
+    margin: 0;
+}
 
 :root {
     /* PALETTE */
@@ -17,16 +20,21 @@ h1,
 h2,
 h3 {
     font-family: 'Playfair Display', Helvetica, sans-serif;
-    font-size: 100%;
-    color: #405B63;
+    font-size: 50%;
+   
 }
 
 ul li {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
 }
 
+/* heading */
+
 header {
-    background: #E6F0D1;
+    font-family: 'Playfair Display';
+    color: #463440;
+    background-color: #E6F0D1;
     display: flex;
     flex-direction: column;
     padding: 1em 0.5em;
@@ -45,28 +53,36 @@ header {
 }
 
 .logo-content img {
-    width: 120px;
+    width: 20%;
 }
 
-#head-h h1 {
-    font-size: 2.2rem;
+#head-h {
+
     justify-content: flex-start;
     display: flex;
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
     flex-direction: column;
 }
 
-#head-h h2 {
-    font-size: 1.8em;
+#head-h h1 {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
+#head-h h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* nav */
 .soc-nav {
+    color: var(--primary-color);
     align-items: center;
     display: flex;
 }
 
-.nav-info {
-
+#nav-info {
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -78,24 +94,27 @@ header {
     right: 0;
 }
 
-.nav-info li {
+#nav-info li {
+    color: var(--primary-color);
     margin: 1em 0.5em;
     text-transform: uppercase;
     transition: all 0.3s linear;
 }
-
-.nav-info li a:active {
+#nav-info li a {
+    color: var(--primary-color);
+}
+#nav-info li a:active {
     border-bottom: 5px double;
 }
 
 #socials {
     align-items: center;
     display: flex;
-    margin: 0 1em;
+    margin: 0.1em;
 }
 
 #socials img {
-    width: 45px;
+    width: 50px;
 }
 
 #socials a:hover {
@@ -103,19 +122,20 @@ header {
 }
 
 .date {
-    background-color: var(--accent2-color);
-    color: var(- --accent2-color);
+    background-color:var(--primary-color);
+    color: var(--background-color);
     display: flex;
     justify-content: center;
     margin-top: 1em;
     padding: 0.8em;
 }
 
-.nav-info {
+#nav-info {
     display: none;
+    color: wheat;
 }
 
-.nav-info.open {
+#nav-info.open {
     display: block;
 }
 
@@ -141,4 +161,96 @@ header {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+}
+
+body {
+    font-family: var(--text-font);
+    position: relative;
+}
+
+p,
+li {
+    color: var(----background-color);
+    font-family: var(--text-font);
+    line-height: 1.4;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    border-bottom: 5px double;
+}
+
+/* main */
+main {
+    color: var(--background-color);
+    background-color: var(--background-color);
+    display: grid;
+    gap: 1em;
+    padding: 2em;
+}
+
+main div {
+    background-color: var(--primary-color);
+}
+
+.container-spot {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    height: 20%;
+}
+
+.container-spot div {
+    background-color: var(--secondary-color);
+}
+
+/* footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.main-footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-details {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details h3 {
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.footer-details img {
+    width: 200px;
+    margin: 100px;
+}
+
+.footer-details2 {
+    border-top: 1px solid var(--secondary-color);
+    margin-top: 1em;
 }
