@@ -22,7 +22,7 @@
     
     header h1 {
         margin-left: 4%;
-        text-align: bottom;
+        text-align:end;
         line-height: 60%;
         display: inline;
         font-size: 300%;
@@ -36,7 +36,7 @@
     
     nav ul li a{
         float: left;
-        max-width: auto;
+        max-width:none;
         text-align: center;
         border: 0;
         padding: 2%;
