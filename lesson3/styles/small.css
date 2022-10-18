@@ -66,7 +66,8 @@ header h1 {
     content: "";
     display: table;
     clear: both;
-    background-color: white;
+    background-color: #463440;
+    
 }
 #main-logo {
     margin: 0 auto;
@@ -106,34 +107,28 @@ p {
 nav {
     align-items: center;
     margin-top: 0;
-    height: 50px;
     background-color: #484349;
 }
 
 nav ul {
-    display: flex;
+    background-color: #484349;
+    display: block;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    padding: 1em 0;
+    padding:  0;
     margin: 0;
 }
 
 nav ul li a{
     text-decoration: none;
     text-align: center;
-    padding: 5px;
-    
     display: block;
     color: #F5F5F5;
     font-family: 'Roboto', sans-serif; 
-
-    
-    
 }
 
 nav ul li a:hover {
-    padding: 0;
     background-color: #F5F5F5;
     color: #1c2a2a;
 }
