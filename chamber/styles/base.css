@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-*{
+
+* {
     margin: 0;
 }
 
@@ -21,7 +22,7 @@ h2,
 h3 {
     font-family: 'Playfair Display', Helvetica, sans-serif;
     font-size: 50%;
-   
+
 }
 
 ul li {
@@ -35,9 +36,7 @@ header {
     font-family: 'Playfair Display';
     color: #463440;
     background-color: #E6F0D1;
-    display: flex;
-    flex-direction: column;
-    padding: 1em 0.5em;
+    padding: 1rem 0;
 }
 
 .head-content {
@@ -45,6 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5em;
+    flex-direction: row;
 }
 
 .logo-content {
@@ -75,69 +75,52 @@ header {
 }
 
 /* nav */
-.soc-nav {
-    color: var(--primary-color);
-    align-items: center;
-    display: flex;
+.nav-m {
+    padding-left: 1rem;
 }
 
-#nav-info {
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
+nav {
+    margin-right: 1.6rem;
+}
+
+nav ul {
     list-style-type: none;
+    padding: 0;
     margin: 0;
-    padding: 2em;
-    position: fixed;
-    right: 0;
 }
 
-#nav-info li {
-    color: var(--primary-color);
-    margin: 1em 0.5em;
-    text-transform: uppercase;
-    transition: all 0.3s linear;
-}
-#nav-info li a {
-    color: var(--primary-color);
-}
-#nav-info li a:active {
-    border-bottom: 5px double;
-}
-
-#socials {
-    align-items: center;
-    display: flex;
-    margin: 0.1em;
-}
-
-#socials img {
-    width: 50px;
-}
-
-#socials a:hover {
-    border-bottom: none;
-}
-
-.date {
-    background-color:var(--primary-color);
-    color: var(--background-color);
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-    padding: 0.8em;
-}
-
-#nav-info {
-    display: none;
-    color: wheat;
-}
-
-#nav-info.open {
+nav ul li a {
     display: block;
+    padding: .8rem 2vw;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--primary-color);
 }
+
+
+/*a:hover,
+a:active {
+    border-bottom: 5px double;
+}*/
+
+nav ul li.active a {
+    background-color: var(--background-color);
+    color: #F5F5F5;
+}
+
+nav ul li a:hover {
+    background-color: var(--background-color);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    text-align: left;
+}
+
 
 #hamburgerBtn {
     background-color: var(--primary-color);
@@ -163,6 +146,34 @@ header {
     display: block;
 }
 
+
+/* socials */
+.socials {
+    padding-right: 2rem;
+    justify-content: end;
+}
+
+.socials img {
+    width: 50px;
+    align-items: flex-start;
+
+}
+
+.socials a:hover {
+    border-bottom: none;
+}
+
+.date {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    display: block;
+    text-align: center;
+    padding: 1px;
+    margin: 0 1rem;
+}
+
+
+
 body {
     font-family: var(--text-font);
     position: relative;
@@ -173,16 +184,6 @@ li {
     color: var(----background-color);
     font-family: var(--text-font);
     line-height: 1.4;
-}
-
-a {
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
-a:hover,
-a:active {
-    border-bottom: 5px double;
 }
 
 /* main */
@@ -198,24 +199,53 @@ main div {
     background-color: var(--primary-color);
 }
 
+.event,
+.weather,
+.news,
+.join,
 .container-spot {
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-around;
-    padding: 1em;
-    height: 20%;
+    padding: .5em;
+    font-size: 1.2rem;
+}
+
+.hero h2 {
+    position: relative;
+    padding-top: 12px;
+    font-size: 10px;
+    padding-left: 12px;
+    
+}
+.hero p {
+    padding-left: 12px;
+}
+
+.news {
+    position: relative;
+    height: 100%;
 }
 
 .container-spot div {
-    background-color: var(--secondary-color);
+    border: 1px solid var(--background-color);
+
+    margin: 1rem 1rem;
+    color: #F5F5F5;
 }
+
+.container-spot {
+    display: grid;
+    grid-area: 1fr;
+    padding-bottom: 0rem;
+}
+
+
 
 /* footer */
 footer {
     background-color: var(--primary-color);
     color: var(--background-color);
-    padding: 0.5em;
+
     text-align: center;
+    padding: 1rem 0;
 }
 
 .main-footer {
@@ -243,6 +273,10 @@ footer {
 .footer p {
     margin: 0;
     text-align: center;
+}
+
+footer a {
+    color: #F5F5F5;
 }
 
 .footer-details img {
