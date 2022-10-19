@@ -31,6 +31,18 @@ ul li {
 }
 
 /* heading */
+.join-us {
+    color: var(--background-color);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1px;
+    margin: 0 1rem;
+    border-top: 2px solid var(--primary-color);
+    border-left: 2px solid var(--primary-color);
+    border-bottom: 1px solid var( --background-color);
+    border-right: 1px solid var( --background-color);
+    background-color: var(--primary-color);
+}
 
 header {
     font-family: 'Playfair Display';
@@ -213,8 +225,9 @@ main div {
     padding-top: 12px;
     font-size: 10px;
     padding-left: 12px;
-    
+
 }
+
 .hero p {
     padding-left: 12px;
 }
