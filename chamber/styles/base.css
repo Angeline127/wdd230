@@ -39,8 +39,8 @@ ul li {
     margin: 0 1rem;
     border-top: 2px solid var(--primary-color);
     border-left: 2px solid var(--primary-color);
-    border-bottom: 1px solid var( --background-color);
-    border-right: 1px solid var( --background-color);
+    border-bottom: 1px solid var(--background-color);
+    border-right: 1px solid var(--background-color);
     background-color: var(--primary-color);
 }
 
@@ -59,7 +59,11 @@ header {
     flex-direction: row;
 }
 
-.logo-content {
+.head-content :nth-child(3) {
+    order: 3;
+}
+
+.head-content .logo-content {
     align-items: center;
     display: flex;
 }
@@ -220,6 +224,40 @@ main div {
     font-size: 1.2rem;
 }
 
+.hero-div img {
+    width: 100%;
+
+}
+
+.hero {
+    position: relative;
+}
+
+.welcome {
+    color: var(--background-color);
+    text-shadow: 1px 1px var(--primary-color);
+    position: absolute;
+    top: 3.2rem;
+    left: 2.2rem;
+    font-size: 1.8rem;
+}
+
+.join-kcc {
+    position: absolute;
+    bottom: 1em;
+    right: 3.9em;
+    font-size: 1.3rem;
+    padding: .2rem;
+    border-radius: 12px;
+    border-color: #463440;
+    opacity: 1.6;
+    transition: 0.3s;
+}
+
+.join-kcc:hover {
+    opacity: 0.8
+}
+
 .hero h2 {
     position: relative;
     padding-top: 12px;
@@ -232,7 +270,8 @@ main div {
     padding-left: 12px;
 }
 
-.news {
+
+.news  {
     position: relative;
     height: 100%;
 }
