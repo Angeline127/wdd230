@@ -197,7 +197,7 @@ body {
 
 p,
 li {
-    color: var(----background-color);
+    color: var(--background-color);
     font-family: var(--text-font);
     line-height: 1.4;
 }
@@ -285,7 +285,7 @@ main div {
 
 .container-spot {
     display: grid;
-    grid-area: 1fr;
+    grid-area: 1;
     padding-bottom: 0rem;
 }
 
