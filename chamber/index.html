@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="discription" content="Home page for Kumasi Chamber of Commerce">
     <title>Kumasi Chamber of Commerce|Home|</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
     <!--styles details here-->
     <link href="styles/normalize.css" rel="stylesheet">
@@ -29,7 +30,7 @@
         </div>
         <div class="head-content">
             <div class="logo-content">
-                <img src="images/logo.png" alt="Kumasi Chamber of Commerce">
+                <img src="images/logo.webp" alt="Kumasi Chamber of Commerce">
                 <div id="head-h">
                     <h1>Kumasi</h1>
                     <h2>Chamber of Commerce</h2>
@@ -82,7 +83,9 @@
             <h1 class="welcome">Welcome to Kumasi</h1>
             <div class="hero-div">
                 <picture>
-                    <img src="images/kumasi-city.webp" alt="Kumasi Chamber of Commerce welcome image">
+                    <source media="(min-width: 1024px)" srcset="images/large.jpg">
+                    <source media="(min-width: 550px)" srcset="images/medium.jpg">
+                    <img src="images/small.jpg" alt="Kumasi Chamber of Commerce welcome image">
                 </picture>
                 <button class="join-kcc">
                     Join the Chamber
@@ -96,22 +99,33 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam unde recusandae veniam,
-                laboriosam ut neque temporibus deleniti nisi voluptatibus dolorem repellat illo dolorum!</p>
+            <div class="weather-div">
+                <div>
+                    <picture>
+                        <img src="images/weather.webp" alt="weather picture">
+                    </picture>
+                </div>
+                <div class="degree-s">
+                    <span class="degrees"></span>°C
+                </div>
+            </div>
+            <div class="box-center">
+                <p>Partly Cloudy</p>
+            </div>
+            <div class="box-bottom">
+                <p>Speed: <span class="speed"></span> km/h</p>
+                <p>Wind Chill: <span class="wind"></span></p>
+            </div>
         </div>
         <div class="news">
-            <h2>💎 News Release</h2>
+            <h2>💎 News Release 💎</h2>
             <p>The collaboration presents a business skills development programme, where 1000 Small Medium Enterprises
                 (SMEs) will be trained to enable them to remain competitive to enhance their business operations. The
-                programme seeks to de-risk these businesses towards accessing long-term capital. Specifically targeting
-                SMEs in the Agribusiness, Manufacturing and High-value services with consideration for women-led
-                businesses, youth-led businesses, and environmental and social management systems.</p>
+                programme seeks to de-risk these businesses towards accessing long-term capital.</p>
 
             <p>The President of the Ghana National Chamber of Commerce Industry, Mr. Clement Osei-Amoako acknowledged
                 the Development Bank Ghana (DBG) for its cooperation and support during the four editions held in Accra
-                on August 15, Koforidua on August 31, Tarkwa on September 13 and Takoradi on September 15, 2022. In all,
-                400 business participants have been trained with more than forty percent (40%) being women-owned
-                businesses.</p>
+                on August 15, Koforidua on August 31, Tarkwa on September 13 and Takoradi on September 15, 2022. </p>
         </div>
         <div class="join">
             <button class="join-kc">
@@ -120,20 +134,26 @@
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="container-spot">
-            <div>
-                <h2>Spotlight 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam unde recusandae veniam,
-                    laboriosam ut neque temporibus deleniti nisi voluptatibus dolorem repellat illo dolorum!</p>
+            <div class="spot-1">
+                <h2>Thankful Transport</h2>
+                <picture>
+                    <img src="images/box-truck.png" alt="truck picture">
+                </picture>
+
             </div>
-            <div>
-                <h2>Spotlight 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam unde recusandae veniam,
-                    laboriosam ut neque temporibus deleniti nisi voluptatibus dolorem repellat illo dolorum!</p>
+            <div class="spot-2">
+                <h2>Code Primera</h2>
+                <picture>
+                    <img src="images/writing.png" alt="code picture">
+                </picture>
+
             </div>
-            <div>
-                <h2>Spotlight 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam unde recusandae veniam,
-                    laboriosam ut neque temporibus deleniti nisi voluptatibus dolorem repellat illo dolorum!</p>
+            <div class="spot-3">
+                <h2>Build A Treefort</h2>
+                <picture>
+                    <img src="images/tree.png" alt="tree picture">
+                </picture>
+
             </div>
         </div>
     </main>
@@ -142,7 +162,7 @@
     <footer>
         <div class="main-footer">
             <div class="footer-details">
-                <img src="images/logo.png" alt="Kumasi Chamber of Commerce" />
+                <img src="images/logo.webp" alt="Kumasi Chamber of Commerce" />
                 <div>
                     <h3><em>Kumasi Chamber of Commerce</em></h3>
                     <p><em>Community 10, Asokwa</em></p>
@@ -164,6 +184,7 @@
 
     <!--scripts details-->
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
