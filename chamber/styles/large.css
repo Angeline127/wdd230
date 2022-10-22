@@ -11,6 +11,7 @@
     font-size: 1.8rem;
   }
 
+
   .socials {
     color: var(--primary-color);
     flex-flow: row-reverse;
