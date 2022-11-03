@@ -314,6 +314,36 @@ h2 {
 
 }
 
+/** discover page **/
+.discover {
+    display: block;
+}
+
+.discover img {
+    padding: 0.6rem;
+}
+
+.discover section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    justify-items: center;
+}
+
+.discover h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.discover p {
+    margin: auto 0;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+
 /*** weather ***/
 .weather h2 {
     padding-top: 30px;
@@ -366,7 +396,6 @@ h2 {
 footer {
     background-color: var(--primary-color);
     color: var(--background-color);
-
     text-align: center;
     padding: 1rem 0;
 }
@@ -391,6 +420,7 @@ footer {
 
 .footer-details h3 {
     text-align: center;
+    font-size: medium;
 }
 
 .footer p {
@@ -403,8 +433,8 @@ footer a {
 }
 
 .footer-details img {
-    width: 200px;
-    margin: 100px;
+    width: 120px;
+
 }
 
 .footer-details2 {
