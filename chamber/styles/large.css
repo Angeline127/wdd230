@@ -66,4 +66,16 @@
   .footer-details {
     margin: 0 2em;
   }
+/** join page **/
+  #joinUs {
+    width: 40%;
+  }
+
+  .join-container div {
+    flex-direction: row;
+  }
+
+  .membership {
+    width: 60%;
+  }
 }
