@@ -28,9 +28,14 @@ function displayProphets(prophet) {
 
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    ____.setAttribute('src', prophet.imageurl);
-    ____.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
-    ____.setAttribute('loading', 'lazy');
+    portrait.setAttribute('src', prophet.imageurl);
+    portrait.setAttribute(
+        'alt',
+        `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${nth(
+            prophet.order
+        )} Latter-day President`
+    );
+    portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
