@@ -33,15 +33,16 @@ li > img {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  text-align: center;
 }
 
 .cards section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #e4d487;
   border: 0.70em solid #f9faf7;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-
+  padding: 0.5rem 2rem 2rem 2rem;
 }
 
 footer {
