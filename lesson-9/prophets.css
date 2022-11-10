@@ -20,9 +20,14 @@ h2 {
 
 img {
   width: auto;
-  max-width: 300px;
+  max-width: 325px;
   box-shadow: 0 0 30px#F2DDA4;
+  height: 200px;
   border: 1px solid #626261;
+}
+li > img {
+  width: auto;
+  height: 30px;
 }
 
 .cards {
