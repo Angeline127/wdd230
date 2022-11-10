@@ -358,21 +358,24 @@ h2 {
 .join-container {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    column-gap: 10px;
+    background-color: white;
 }
 
 .join-container div {
     display: flex;
     flex-direction: column;
-    background-color: rgb(41, 117, 184);
     justify-content: space-between;
 }
-.info {
-    background-color: aqua;
+.membership  {
+    background-color: #D1F0DA;
+    padding-top: 50px;
+    align-content: center;
+    
 }
 #joinUs {
     align-self: center;
-    background-color: var(--background-color);
+    background-color: black;
     padding: 2em;
     text-align: left;
 }

@@ -73,6 +73,7 @@
 
   .join-container div {
     flex-direction: row;
+    column-gap: 10px;
   }
 
   .membership {
