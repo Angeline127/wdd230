@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-* {
-    margin: 0;
-}
 
 :root {
     /* PALETTE */
@@ -330,13 +327,14 @@ h2 {
     justify-items: center;
 }
 
-.discover h1{
+.discover h1 {
     text-align: center;
     color: black;
     font-size: 30px;
     padding-bottom: 30px;
     text-shadow: #463440;
 }
+
 .discover h2 {
     padding: 1rem;
     text-align: center;
@@ -345,7 +343,7 @@ h2 {
 .dayBefore p {
     font-size: 2rem;
     font-weight: bolder;
-  }
+}
 
 .discover p {
     margin: auto 0;
@@ -367,12 +365,14 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
 }
-.membership  {
+
+.membership {
     background-color: #D1F0DA;
     padding-top: 50px;
     align-content: center;
-    
+
 }
+
 #joinUs {
     align-self: center;
     background-color: black;
@@ -413,7 +413,88 @@ small {
     width: 100%;
 }
 
+/* Directory */
+.directory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
+.directory {
+    padding-bottom: 5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid section,
+.list section {
+    background: var(--accent-color-2);
+    border: 0.55em solid var(--primary-color);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #463440;
+}
+
+.grid section p,
+.list section p {
+    text-align: left;
+    color: #463440;
+}
+
+.grid section a,
+.list section a {
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.grid img,
+.list img {
+    width: auto;
+    box-shadow: 0 0 30px#716f6a;
+}
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 3em;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.menu p {
+    color: var(--accent-color);
+}
+
+.menu button {
+    margin: 0 10px;
+    padding: 1em 3em;
+}
+
+.menu div {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list section img {
+    display: none;
+}
 
 /*** weather ***/
 .weather h2 {

@@ -51,7 +51,8 @@
 
     .discover div:hover {
         box-shadow: 0 0 50px var(--primary-color);
-      }
+    }
+
     
 
     .main-footer {

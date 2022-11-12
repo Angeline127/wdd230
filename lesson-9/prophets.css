@@ -8,8 +8,8 @@ body {
 
 h1 {
   font-family: 'PlayFair Display', serif;
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 3rem;
+
 }
 
 h2 {
@@ -20,19 +20,20 @@ h2 {
 
 img {
   width: auto;
-  max-width: 300px;
   box-shadow: 0 0 30px#F2DDA4;
-  height: 200px;
+  height: 300px;
   border: 1px solid #626261;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   text-align: center;
+  gap: 1rem;
+  margin: 2rem;
 }
 
-.cards section {
+ section {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,0 +1,93 @@
+{
+    "directory": [
+      {
+        "name": "Twitter Ghana",
+        "address": "Agyiga Zongo p.o. box 2591",
+        "phoneNumber": "(233) 591-662-401",
+        "website": "http://www.twitter.com/",
+        "imgUrl": "images/together.svg",
+        "membershipLevel": 1
+      },
+      {
+        "name": "KFC Ghana",
+        "address": "C655/3, 5th Crescent",
+        "phoneNumber": "(233) 241-662-871",
+        "website": "http://www.kfc.com/",
+        "imgUrl": "images/kfc.svg",
+        "membershipLevel": 1
+      },
+      {
+        "name": "Coke Ghana",
+        "address": "1st & 2nd Floor Marcofi House, Osu",
+        "phoneNumber": "(233) 241-734-801",
+        "website": "http://www.cocalagh.com/",
+        "imgUrl": "images/voda.svg",
+        "membershipLevel": 1
+
+      },
+      {
+        "name": "Health Ghana",
+        "address": "30 St James Street",
+        "phoneNumber": "(233) 246-662-909",
+        "website": "http://www.ghanahealth.com/",
+        "imgUrl": "images/kfc.svg",
+        "membershipLevel": 2
+      },
+      {
+        "name": "Together Ghana",
+        "address": "Bertil Harding Hwy",
+        "phoneNumber": "(233) 248-762-871",
+        "website": "http://www.unitygh.com/",
+        "imgUrl": "images/together.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Computer Ghana",
+        "address": "Trade Fair Centre Pavilion P",
+        "phoneNumber": "(233) 241-0872-871",
+        "website": "http://www.computerghc.com/",
+        "imgUrl": "images/kfc.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Plant Ghana",
+        "address": "420 Eastgate Dr",
+        "phoneNumber": "(233) 541-662-811",
+        "website": "http://www.agrigh.com/",
+        "imgUrl": "images/invision.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Bebo Ghana",
+        "address": "c/o Avornu Selase Norbert",
+        "phoneNumber": "(233) 541-962-831",
+        "website": "http://www.bebogh.com/",
+        "imgUrl": "images/together.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Invision Ghana",
+        "address": "No.7 cashew street",
+        "phoneNumber": "(233) 241-662-871",
+        "website": "http://www.kfc.com/",
+        "imgUrl": "images/voda.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Vodafone Ghana",
+        "address": "BLK 71 B6 SSNIT ADENTA",
+        "phoneNumber": "(233) 240-009-221",
+        "website": "http://www.vodafone.com.gh/",
+        "imgUrl": "images/voda.svg",
+        "membershipLevel": 3
+      },
+      {
+        "name": "Bebo Ghana",
+        "address": "BLK 71 B6 SSNIT ADENTA",
+        "phoneNumber": "(233) 240-009-221",
+        "website": "http://www.vodafone.com.gh/",
+        "imgUrl": "images/invision.svg",
+        "membershipLevel": 3
+      }
+    ]
+  }
