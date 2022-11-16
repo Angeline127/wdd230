@@ -218,9 +218,7 @@ main {
 }
 
 
-main div {
-    background-color: var(--primary-color);
-}
+
 
 .event,
 .weather,
@@ -311,6 +309,22 @@ h2 {
 
 }
 
+/** Thank You  **/
+.thankyou-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.thankyou h2, p{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+.thankyou p {
+    color: #463440;
+}
+
 /** discover page **/
 .discover {
     display: block;
@@ -357,25 +371,36 @@ h2 {
     display: flex;
     justify-content: center;
     column-gap: 10px;
-    background-color: white;
+    color: #463440;
 }
 
 .join-container div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .membership {
-    background-color: #D1F0DA;
-    padding-top: 50px;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 
 }
 
+.membership ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.membership p {
+    color: var(--primary-color);
+}
+
 #joinUs {
+    background-color: var(--primary-color);
     align-self: center;
-    background-color: black;
     padding: 2em;
     text-align: left;
 }
@@ -383,7 +408,7 @@ h2 {
 input,
 select,
 textArea {
-    background-color: var(--accent-color);
+    background-color: var(--accent-color-2);
     border-radius: 6px;
     border: 0;
     box-sizing: border-box;
@@ -395,11 +420,11 @@ textArea {
 
 label,
 small {
-    color: var(--accent-color);
+    color: var(--background-color);
 }
 
 .submit {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color-2);
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
@@ -550,6 +575,11 @@ footer {
     color: var(--background-color);
     text-align: center;
     padding: 1rem 0;
+}
+
+footer h3,
+p {
+    color: var(--background-color);
 }
 
 .main-footer {
