@@ -394,9 +394,6 @@ h2 {
     text-align: left;
 }
 
-.membership p {
-    color: var(--primary-color);
-}
 
 #joinUs {
     background-color: var(--primary-color);
@@ -575,11 +572,6 @@ footer {
     color: var(--background-color);
     text-align: center;
     padding: 1rem 0;
-}
-
-footer h3,
-p {
-    color: var(--background-color);
 }
 
 .main-footer {
