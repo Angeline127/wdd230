@@ -204,16 +204,13 @@ li {
 /* main */
 main {
     color: var(--background-color);
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 100%;
     height: 100%;
     grid-gap: 5px;
     gap: 0.8em;
     padding: 2em;
-
-
-
     /*padding: 0.5rem 0;*/
 }
 
