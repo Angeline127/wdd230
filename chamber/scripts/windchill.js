@@ -20,7 +20,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-
+const winds = document.querySelector('wind');
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Kumasi&units=imperial&appid=4831de6057d4fe27a81d6dd35aae65da';
 
 async function apiFetch() {

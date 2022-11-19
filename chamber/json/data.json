@@ -5,7 +5,7 @@
         "address": "Agyiga Zongo p.o. box 2591",
         "phoneNumber": "(233) 591-662-401",
         "website": "http://www.twitter.com/",
-        "imgUrl": "images/together.svg",
+        "imgUrl": "images/twitter.svg",
         "membershipLevel": 1
       },
       {
@@ -18,10 +18,10 @@
       },
       {
         "name": "Coke Ghana",
-        "address": "1st & 2nd Floor Marcofi House, Osu",
+        "address": "1st & 2nd House, Osu",
         "phoneNumber": "(233) 241-734-801",
         "website": "http://www.cocalagh.com/",
-        "imgUrl": "images/voda.svg",
+        "imgUrl": "images/coke.svg",
         "membershipLevel": 1
 
       },
@@ -30,7 +30,7 @@
         "address": "30 St James Street",
         "phoneNumber": "(233) 246-662-909",
         "website": "http://www.ghanahealth.com/",
-        "imgUrl": "images/kfc.svg",
+        "imgUrl": "images/health.svg",
         "membershipLevel": 2
       },
       {
@@ -43,10 +43,10 @@
       },
       {
         "name": "Computer Ghana",
-        "address": "Trade Fair Centre Pavilion P",
+        "address": "Trade Fair Centre",
         "phoneNumber": "(233) 241-0872-871",
-        "website": "http://www.computerghc.com/",
-        "imgUrl": "images/kfc.svg",
+        "website": "http://www.compghc.com/",
+        "imgUrl": "images/computer.svg",
         "membershipLevel": 3
       },
       {
@@ -54,7 +54,7 @@
         "address": "420 Eastgate Dr",
         "phoneNumber": "(233) 541-662-811",
         "website": "http://www.agrigh.com/",
-        "imgUrl": "images/invision.svg",
+        "imgUrl": "images/flower.svg",
         "membershipLevel": 3
       },
       {
@@ -62,7 +62,7 @@
         "address": "c/o Avornu Selase Norbert",
         "phoneNumber": "(233) 541-962-831",
         "website": "http://www.bebogh.com/",
-        "imgUrl": "images/together.svg",
+        "imgUrl": "images/bebo.svg",
         "membershipLevel": 3
       },
       {
@@ -70,7 +70,7 @@
         "address": "No.7 cashew street",
         "phoneNumber": "(233) 241-662-871",
         "website": "http://www.kfc.com/",
-        "imgUrl": "images/voda.svg",
+        "imgUrl": "images/invision.svg",
         "membershipLevel": 3
       },
       {
@@ -86,7 +86,7 @@
         "address": "BLK 71 B6 SSNIT ADENTA",
         "phoneNumber": "(233) 240-009-221",
         "website": "http://www.vodafone.com.gh/",
-        "imgUrl": "images/invision.svg",
+        "imgUrl": "images/bebo.svg",
         "membershipLevel": 3
       }
     ]
