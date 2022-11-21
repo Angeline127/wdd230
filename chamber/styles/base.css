@@ -123,13 +123,13 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: var(--background-color);
-    color: #F5F5F5;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 nav ul li a:hover {
     background-color: var(--primary-color);
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 nav ul {
