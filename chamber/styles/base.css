@@ -687,6 +687,10 @@ footer p {
 
 footer a {
     color: var(--primary-color);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
 
 .footer-details img {
