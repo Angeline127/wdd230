@@ -398,7 +398,7 @@ li {
     font-family: 'Playfair Display';
 }
 
-.join-container p {}
+
 .membership {
     border-radius: 12px;
     background-color: var(--primary-color);
@@ -552,7 +552,7 @@ p {
     padding: 10px;
     text-align: center;
     justify-items: center;
-    color: #463440;
+    color: #F5F5F5;
 } 
 
 .grid section p,
