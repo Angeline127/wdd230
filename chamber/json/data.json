@@ -12,7 +12,7 @@
         "name": "KFC Ghana",
         "address": "C655/3, 5th Crescent",
         "phoneNumber": "(233) 241-662-871",
-        "website": "http://www.kfc.com/",
+        "website": "https://www.kfc.com.gh/home",
         "imgUrl": "images/kfc.svg",
         "membershipLevel": 1
       },
@@ -20,7 +20,7 @@
         "name": "Coke Ghana",
         "address": "1st & 2nd House, Osu",
         "phoneNumber": "(233) 241-734-801",
-        "website": "http://www.cocalagh.com/",
+        "website": "https://www.coca-cola.com.gh/",
         "imgUrl": "images/coke.svg",
         "membershipLevel": 1
 
@@ -29,15 +29,15 @@
         "name": "Health Ghana",
         "address": "30 St James Street",
         "phoneNumber": "(233) 246-662-909",
-        "website": "http://www.ghanahealth.com/",
+        "website": "https://ghs.gov.gh/",
         "imgUrl": "images/health.svg",
         "membershipLevel": 2
       },
       {
-        "name": "Together Ghana",
+        "name": "Unity Ghana Airline",
         "address": "Bertil Harding Hwy",
         "phoneNumber": "(233) 248-762-871",
-        "website": "http://www.unitygh.com/",
+        "website": "https://www.flyunityair.com/",
         "imgUrl": "images/together.svg",
         "membershipLevel": 3
       },
@@ -45,7 +45,7 @@
         "name": "Computer Ghana",
         "address": "Trade Fair Centre",
         "phoneNumber": "(233) 241-0872-871",
-        "website": "http://www.compghc.com/",
+        "website": "https://compughana.com/",
         "imgUrl": "images/computer.svg",
         "membershipLevel": 3
       },
@@ -53,15 +53,15 @@
         "name": "Plant Ghana",
         "address": "420 Eastgate Dr",
         "phoneNumber": "(233) 541-662-811",
-        "website": "http://www.agrigh.com/",
+        "website": "https://onetreeplanted.org/",
         "imgUrl": "images/flower.svg",
         "membershipLevel": 3
       },
       {
-        "name": "Bebo Ghana",
+        "name": "Bebo Bakery Ghana",
         "address": "c/o Avornu Selase Norbert",
         "phoneNumber": "(233) 541-962-831",
-        "website": "http://www.bebogh.com/",
+        "website": "http://bebobakery.com/",
         "imgUrl": "images/bebo.svg",
         "membershipLevel": 3
       },
@@ -69,25 +69,33 @@
         "name": "Invision Ghana",
         "address": "No.7 cashew street",
         "phoneNumber": "(233) 241-662-871",
-        "website": "http://www.kfc.com/",
+        "website": "https://status.invisionapp.com/",
         "imgUrl": "images/invision.svg",
         "membershipLevel": 3
       },
       {
         "name": "Vodafone Ghana",
-        "address": "BLK 71 B6 SSNIT ADENTA",
+        "address": "BLK B6 ADENTA",
         "phoneNumber": "(233) 240-009-221",
         "website": "http://www.vodafone.com.gh/",
         "imgUrl": "images/voda.svg",
         "membershipLevel": 3
       },
       {
-        "name": "Bebo Ghana",
-        "address": "BLK 71 B6 SSNIT ADENTA",
-        "phoneNumber": "(233) 240-009-221",
-        "website": "http://www.vodafone.com.gh/",
-        "imgUrl": "images/bebo.svg",
-        "membershipLevel": 3
+        "name": "Instagram Ghana",
+        "address": "BLK 71 B9 SSNIT Abiola ",
+        "phoneNumber": "(233) 200-009-121",
+        "website": "https://www.instagram.com/",
+        "imgUrl": "images/instagram.svg",
+        "membershipLevel": 1
+      },
+      {
+        "name": "Telegram Ghana",
+        "address": "BLK 18 Akissi ",
+        "phoneNumber": "(233) 240-109-171",
+        "website": "https://telegrouplink.com/",
+        "imgUrl": "images/telegram.svg",
+        "membershipLevel": 1
       }
     ]
   }

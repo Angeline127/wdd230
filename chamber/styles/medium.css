@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5rem) {
+@media only screen and (min-width: 35.5rem) {
     .logo-content img {
         width: 60px;
     }
@@ -74,6 +74,10 @@
     .discover-container {
         width: 50%;
     }
+
+    #joinUs {
+        width: 50%;
+      }
 
     .main-footer {
         flex-direction: row;
