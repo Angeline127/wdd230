@@ -377,16 +377,17 @@ li {
 /*** Join Page ***/
 .join-container {
     
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    column-gap: 5px;
+    column-gap: 20px;
+    row-gap: 12px;
     color: #F5F5F5;
     padding: 3rem;
-    width: 98%;
+    width: 100%;
 }
 
 .join-container div {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;

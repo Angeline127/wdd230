@@ -89,6 +89,9 @@
   #joinUs {
     width: 40%;
   }
+  .join-container {
+    display:flex;
+  }
 
   
 
