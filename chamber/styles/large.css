@@ -56,6 +56,13 @@
     grid-row: 2 / 2;
   }
 
+  .weather-icon {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
   .news {
     grid-column: 2 / 4;
     grid-row: 3 / 4;

@@ -79,6 +79,14 @@
         width: 50%;
       }
 
+    /** Weather **/
+    .cloud {
+        margin: 0;
+    }
+    .wind {
+        margin: 5px;
+    }
+    /** Footer **/
     .main-footer {
         flex-direction: row;
     }
