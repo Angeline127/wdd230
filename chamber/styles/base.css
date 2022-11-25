@@ -421,8 +421,9 @@ li {
     background-color: var(--primary-color);
     align-self: center;
     padding: 2em;
-    text-align: left;
+    text-align: center;
     border-radius: 12px;
+    margin-top: 20px;
 }
 
 input,

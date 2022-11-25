@@ -76,7 +76,8 @@
     }
 
     #joinUs {
-        width: 50%;
+        width: 100%;
+        justify-content: center;
       }
 
     /** Weather **/
