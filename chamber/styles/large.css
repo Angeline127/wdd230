@@ -95,6 +95,7 @@
   /** join page **/
   #joinUs {
     width: 40%;
+    text-align: left;
   }
   .join-container {
     display:flex;
