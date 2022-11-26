@@ -83,14 +83,37 @@ else {
 
 //Directory //
 const cards = document.querySelector('.cards');
+const getDirectoryList = async () => {
+    let directList = [];
+    await fetch('./json/data.json')
+        .then((response) => response.json())
+        .then((data) =>
+            data.directory.forEach((directs) => {
+                displayDirectory(directs);
+                directList.push(directs);
+            })
+        );
 
-fetch('./json/data.json')
-  .then((response) => response.json())
-  .then(function (jsonObject) {
-    console.table(jsonObject); // temporary checking for valid response and data parsing
-    const directory = jsonObject['directory'];
-    directory.forEach((dir) => displayDirectory(dir));
-  });
+    // Selects 3 random business with gold/silver status
+    const randomSpot = getRandom(
+        directList.filter(
+            (directs) =>
+                directs.membershipLevel === 'Gold' ||
+                directs.membershipLevel === 'Silver'
+        ),
+        3
+    );
+
+    randomSpot.forEach((a) => displaySpot(a));
+};
+
+getDirectoryList();
+
+function getRandom(arr, num) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+    return shuffled.slice(0, num);
+}
 
 function displayDirectory(dir) {
   // Create elements to add to the document
@@ -149,5 +172,45 @@ function showList() {
     display.classList.add('list');
     display.classList.remove('grid');
   }
+}
+
+
+// Displays directory spotlight
+function displaySpot(dir) {
+  // Create elements to add to the document
+  let card = document.createElement('section');
+  let image = document.createElement('img');
+  let h2 = document.createElement('h2');
+  let address = document.createElement('p');
+  let phoneNumber = document.createElement('p');
+  let website = document.createElement('a');
+  let membershipLevel = document.createElement('p')
+
+  // Change the textContent property of the h2 element 
+  if (h2) h2.textContent = dir.name;
+  if (address) address.textContent = ` ${dir.address}`;
+  if (phoneNumber) phoneNumber.textContent = ` ${dir.phoneNumber}`;
+  if (website) {
+      website.textContent = dir.website;
+      website.href = dir.website;
+  }
+  if (membershipLevel) membershipLevel.textContent = ` ${dir.membershipLevel}`;
+
+  // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+  image.setAttribute('src', dir.imgUrl);
+  image.setAttribute('alt', `${dir.name}`);
+  image.setAttribute('loading', 'lazy');
+
+  // Add/append the section(card) with the h2 element
+  card.appendChild(h2);
+  card.appendChild(image);
+  card.appendChild(address);
+  card.appendChild(phoneNumber);
+  card.appendChild(website);
+  card.appendChild(membershipLevel);
+
+  // Add/append the existing HTML div with the cards class with the section(card)
+  const divGrid = document.querySelector('.container-spot');
+  if (divGrid) divGrid.appendChild(card);
 }
 

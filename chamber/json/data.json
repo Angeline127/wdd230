@@ -22,7 +22,7 @@
         "phoneNumber": "(233) 241-734-801",
         "website": "https://www.coca-cola.com.gh/",
         "imgUrl": "images/coke.svg",
-        "membershipLevel":"Silver"
+        "membershipLevel":"NP"
 
       },
       {
@@ -47,7 +47,7 @@
         "phoneNumber": "(233) 241-0872-871",
         "website": "https://compughana.com/",
         "imgUrl": "images/computer.svg",
-        "membershipLevel": "Bronze"
+        "membershipLevel": "Silver"
       },
       {
         "name": "Plant Ghana",
@@ -71,7 +71,7 @@
         "phoneNumber": "(233) 241-662-871",
         "website": "https://status.invisionapp.com/",
         "imgUrl": "images/invision.svg",
-        "membershipLevel": "Bronze"
+        "membershipLevel": "Silver"
       },
       {
         "name": "Vodafone Ghana",
@@ -87,7 +87,7 @@
         "phoneNumber": "(233) 200-009-121",
         "website": "https://www.instagram.com/",
         "imgUrl": "images/instagram.svg",
-        "membershipLevel":"NP"
+        "membershipLevel":"Gold"
       },
       {
         "name": "Telegram Ghana",

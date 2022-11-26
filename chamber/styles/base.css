@@ -301,15 +301,17 @@ li {
     height: 102.5%;
 }
 
-.container-spot div {
-    border: 1px solid var(--background-color);
-    color: #F5F5F5;
-    column-gap: 6px;
+.container-spot section {
+    background-color: var(--background-color);
+    padding: 0.7rem;
+    margin: 8px;
+    color: var(--primary-color);
+    border: 3px solid var(--secondary-color);
 }
-
 .container-spot {
     display: grid;
-    padding: 0.5rem;
+    justify-content: space-evenly;
+    color: var(--primary-color);
 }
 
 .container-spot img {
@@ -319,16 +321,13 @@ li {
     width: 120px;
 }
 
-.container-spot p,
-h3 {
-    font-size: 1.2rem;
-    padding-bottom: 10px;
+ .container-spot p {
+    color: var(--primary-color);
+}
+.container-spot h2 {
+    color: var(--primary-color);
 }
 
-.spot-1,
-.spot-2 {
-    padding-top: 3px;
-}
 
 
 /*** Discover Page ***/
