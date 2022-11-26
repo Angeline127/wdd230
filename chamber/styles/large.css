@@ -115,5 +115,15 @@
     max-width: 98%;
   }
   
-  
+  /** contact page **/
+  .main-join{
+    display: flex;
+  }
+  .contact-us{
+    width: 50%;
+  }
+  #contact-us-form{
+    width: 50%;
+    padding-top: 3rem;
+  }
 }

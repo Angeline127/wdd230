@@ -6,7 +6,7 @@
         "phoneNumber": "(233) 591-662-401",
         "website": "http://www.twitter.com/",
         "imgUrl": "images/twitter.svg",
-        "membershipLevel": 1
+        "membershipLevel": "Gold"
       },
       {
         "name": "KFC Ghana",
@@ -14,7 +14,7 @@
         "phoneNumber": "(233) 241-662-871",
         "website": "https://www.kfc.com.gh/home",
         "imgUrl": "images/kfc.svg",
-        "membershipLevel": 1
+        "membershipLevel": "Gold"
       },
       {
         "name": "Coke Ghana",
@@ -22,7 +22,7 @@
         "phoneNumber": "(233) 241-734-801",
         "website": "https://www.coca-cola.com.gh/",
         "imgUrl": "images/coke.svg",
-        "membershipLevel": 1
+        "membershipLevel":"Silver"
 
       },
       {
@@ -31,7 +31,7 @@
         "phoneNumber": "(233) 246-662-909",
         "website": "https://ghs.gov.gh/",
         "imgUrl": "images/health.svg",
-        "membershipLevel": 2
+        "membershipLevel": "Silver"
       },
       {
         "name": "Unity Ghana Airline",
@@ -39,7 +39,7 @@
         "phoneNumber": "(233) 248-762-871",
         "website": "https://www.flyunityair.com/",
         "imgUrl": "images/together.svg",
-        "membershipLevel": 3
+        "membershipLevel": "Bronze"
       },
       {
         "name": "Computer Ghana",
@@ -47,7 +47,7 @@
         "phoneNumber": "(233) 241-0872-871",
         "website": "https://compughana.com/",
         "imgUrl": "images/computer.svg",
-        "membershipLevel": 3
+        "membershipLevel": "Bronze"
       },
       {
         "name": "Plant Ghana",
@@ -55,7 +55,7 @@
         "phoneNumber": "(233) 541-662-811",
         "website": "https://onetreeplanted.org/",
         "imgUrl": "images/flower.svg",
-        "membershipLevel": 3
+        "membershipLevel": "Silver"
       },
       {
         "name": "Bebo Bakery Ghana",
@@ -63,7 +63,7 @@
         "phoneNumber": "(233) 541-962-831",
         "website": "http://bebobakery.com/",
         "imgUrl": "images/bebo.svg",
-        "membershipLevel": 3
+        "membershipLevel":"Gold"
       },
       {
         "name": "Invision Ghana",
@@ -71,7 +71,7 @@
         "phoneNumber": "(233) 241-662-871",
         "website": "https://status.invisionapp.com/",
         "imgUrl": "images/invision.svg",
-        "membershipLevel": 3
+        "membershipLevel": "Bronze"
       },
       {
         "name": "Vodafone Ghana",
@@ -79,7 +79,7 @@
         "phoneNumber": "(233) 240-009-221",
         "website": "http://www.vodafone.com.gh/",
         "imgUrl": "images/voda.svg",
-        "membershipLevel": 3
+        "membershipLevel": "Bronze"
       },
       {
         "name": "Instagram Ghana",
@@ -87,7 +87,7 @@
         "phoneNumber": "(233) 200-009-121",
         "website": "https://www.instagram.com/",
         "imgUrl": "images/instagram.svg",
-        "membershipLevel": 1
+        "membershipLevel":"NP"
       },
       {
         "name": "Telegram Ghana",
@@ -95,7 +95,7 @@
         "phoneNumber": "(233) 240-109-171",
         "website": "https://telegrouplink.com/",
         "imgUrl": "images/telegram.svg",
-        "membershipLevel": 1
+        "membershipLevel": "NP"
       }
     ]
   }
