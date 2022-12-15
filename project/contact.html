@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Bountiful Food">
+    <title>Bountiful Foods|Contact|</title>
+
+    <!--styles details here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <!--fonts details here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--header details-->
+    <header>
+        <div class="head-content">
+            <div class="logo-content">
+                <img src="images/bounti-logo.png" alt="Kumasi Chamber of Commerce">
+                <div id="head-id">
+                    <h1> Bountiful </h1>
+                    <h2>Foods Carlsbad</h2>
+                </div>
+            </div>
+            <div>
+                <nav class="navbar-details">
+                    <button id="hamburgerBtn">
+                        <span>&#9776;</span><span>X</span>
+                    </button>
+                    <ul id="navbar-details-2">
+                        <li>
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a href="fresh.html"> Fresh </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg"
+                        alt="facebook logo" /></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedln.svg"
+                        alt="linkedin logo" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.svg"
+                        alt="twitter logo" /></a>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+
+    <!--main details-->
+    <main>
+
+        <div></div>
+
+        <div class="main-join">
+            <div class="contact-us">
+                <h2>Address</h2>
+                <p>1300 HILLVIEW CT CARLSBAD CA USA</p>
+                <h2>Phone Number</h2>
+                <p>(+1) 92008-2537</p>
+                <h2>Email</h2>
+                <p>info@kumasicc.org</p>
+                <h2>Contact Manager</h2>
+                <p>Angeline Nyepen | Manager</p>
+                <p>(+1) 687008-2537</p>
+                <br>
+                <div class="map-info">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.1908933691325!2d-117.3445294854734!3d33.156614980859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc72142141a487%3A0x3939f69ae00301bb!2s755%20Chestnut%20Ave%2C%20Carlsbad%2C%20CA%2092008!5e0!3m2!1sen!2sus!4v1671049647473!5m2!1sen!2sus"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <form id="contact-us-form" method="get" action="thankyou.html">
+                <section class="headings">
+                    <h2>Send Us message</h2>
+                </section>
+                <label class="application">First Name <input type="text" name="firstName" required></label>
+                <label class="application">Last Name <input type="text" name="lastName" required></label>
+                <label class="application">Title <input type="text" name="title" pattern="[a-zA-Z -]{7,}"
+                        placeholder="Executive Manager"><small>Accepts only alpha
+                        characters,
+                        hyphens, with at least 7
+                        characters.</small></label><br>
+                <label class="application">Email<input type="email" name="email" placeholder="example@email.com"
+                        required></label>
+                <label class="application">Phone<input type="tel" name="phone" required></label>
+                <label class="application">Send us message.
+                    <textarea class="application" name="description" rows="5" cols="25"
+                        placeholder="Type your message here..."></textarea>
+                </label>
+
+                <input type="hidden" id="dateTime" name="dateTime" value="" />
+
+                <input class="submit" type="submit" value="Send Message" />
+
+            </form>
+        </div>
+
+    </main>
+
+
+
+
+
+    <!--footer details-->
+    <footer>
+        <div class="main-footer">
+            <div class="footer-details">
+                <img src="images/bounti-logo.png" alt="Kumasi Chamber of Commerce" width=50 height=120 />
+                <div>
+                    <h3><em>Carlsbad Bountiful Food</em></h3>
+                    <p><em>1300 HILLVIEW CT CARLSBAD CA USA</em></p>
+                    <p><em>Carlsbad, USA 001</em></p>
+                </div>
+            </div>
+            <div>
+                <p>bountifulfd.org</p>
+                <p>(+1) 687008-2537</p>
+                <a href="index.html">Link</a><br>
+                <a class="map"
+                    href="https://www.google.com/maps/place/755+Chestnut+Ave,+Carlsbad,+CA+92008/@33.156615,-117.3445295,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72142141a487:0x3939f69ae00301bb!8m2!3d33.156615!4d-117.3423408?hl=en">📍
+                    Carlsbad,  USA</a>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-details2">&copy; 2022 <strong>| Angeline Nyepen |</strong> WDD 230
+            Project Last Modification:
+            <span id="last-updated"></span>
+        </p>
+    </footer>
+
+    <!--scripts-->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/wind.js"></script>
+</body>
+
+</html>

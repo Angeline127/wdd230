@@ -56,7 +56,6 @@ header {
     font-family: 'Playfair Display';
     color: var(--primary-color);
     background-color: var(--accent-color-2);
-    padding: 1rem 0;
 }
 
 .head-content {

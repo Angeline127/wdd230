@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Bountiful Food">
+    <title>Bountiful Foods|Home|</title>
+
+    <!--styles details here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <!--fonts details here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--header details-->
+    <header>
+        <div class="head-content">
+            <div class="logo-content">
+                <img src="images/bounti-logo.png" alt="Kumasi Chamber of Commerce">
+                <div id="head-id">
+                    <h1> Bountiful </h1>
+                    <h2>Foods Carlsbad</h2>
+                </div>
+            </div>
+            <div>
+                <nav class="navbar-details">
+                    <button id="hamburgerBtn">
+                        <span>&#9776;</span><span>X</span>
+                    </button>
+                    <ul id="navbar-details-2">
+                        <li>
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a href="fresh.html"> Fresh </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg"
+                        alt="facebook logo" /></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedln.svg"
+                        alt="linkedin logo" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.svg"
+                            alt="twitter logo" /></a>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+
+    <!--main details-->
+    <main class="fresh-main">
+        
+        <div class="fresh-form">
+            <form id="fresh-details" name="fresh" method="get">
+                <label for="fname">First name</label><br />
+                <input type="text" id="fname" name="fname" autofocus required /><br /><br />
+                <label for="email">Email</label><br />
+                <input type="email" id="email" name="email" placeholder="your@email.com" required /><br /><br />
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" required /><br /><br />
+                <label class="choose-fruit" for="fruit">Choose any three fruits:
+                    <select name="fruit1" id="fruit1">
+                        <option value="">Fruit One Select</option>
+                    </select>
+                    <select name="fruit2" id="fruit2">
+                        <option value="">Fruit Two select</option>
+                    </select>
+                    <select name="fruit3" id="fruit3">
+                        <option value="">Fruit Three Select</option>
+                    </select>
+                </label>
+                <br><br><br>
+                <label class="application">Type your special instructions here.
+                    <textarea class="request" name="description" rows="5" cols="25"
+                ></textarea>
+                </label>
+
+                <input type="hidden" id="dateTime" name="dateTime" value="" />
+
+                <input class="submit" type="submit" value="Order My Drink" />
+        </div>
+        <div class="special-drink">
+            <h2> Make your own drink</h2>
+            <div class="make-drink">
+                <p id="fillName"></p>
+                <p id="fillEmail"></p>
+                <p id="fillPhone"></p>
+                <p id="fillFruit1"></p>
+                <p id="fillFruit2"></p>
+                <p id="fillFruit3"></p>
+                <p id="fillInstruction"></p>
+                <p id="fillProtein"></p>
+                <p id="fillFat"></p>
+                <p id="fillSugar"></p>
+                <p id="fillCalories"></p>
+                <p id="fillDate"></p>
+              </div>
+        </div>
+      
+    </main>
+
+    <!--footer details-->
+    <footer>
+        <div class="main-footer">
+            <div class="footer-details">
+                <img src="images/bounti-logo.png" alt="Kumasi Chamber of Commerce" width=50 height=120 />
+                <div>
+                    <h3><em>Carlsbad Bountiful Food</em></h3>
+                    <p><em>1300 HILLVIEW CT CARLSBAD CA USA</em></p>
+                    <p><em>Carlsbad, USA 001</em></p>
+                </div>
+            </div>
+            <div>
+                <p>bountifulfd.org</p>
+                <p>(+1) 687008-2537</p>
+                <a href="index.html">Link</a><br>
+                <a class="map"
+                    href="https://www.google.com/maps/place/755+Chestnut+Ave,+Carlsbad,+CA+92008/@33.156615,-117.3445295,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72142141a487:0x3939f69ae00301bb!8m2!3d33.156615!4d-117.3423408?hl=en">📍
+                    Carlsbad,  USA</a>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-details2">&copy; 2022 <strong>| Angeline Nyepen |</strong> WDD 230
+            Project Last Modification:
+            <span id="last-updated"></span>
+        </p>
+    </footer>
+
+    <!--scripts-->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/wind.js"></script>
+</body>
+
+</html>
